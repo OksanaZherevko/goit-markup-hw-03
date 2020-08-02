@@ -11,9 +11,10 @@
   </head>
 
   <body>
-    <header class="page-header">
-        <a class="logotype" href="WebStudio"><span class="logotype-web">Web</span> Studio</a>
-        <nav class="navigation">
+    <header class="page-header section-header">
+      <div class="container flexbox">
+          <nav class="navigation">
+            <a class="logotype" href="WebStudio"><span class="logotype-web">Web</span> Studio</a>
           <ul class="list menu-list">
             <li class="menu-item"><a href="#" class="menu-link">Студия</a></li>
             <li class="menu-item"><a href="#" class="menu-link current">Портфолио</a></li>
@@ -21,7 +22,7 @@
           </ul>
         </nav>
        
-        <ul class="list">
+        <ul class="list menu-contacts">
             <li><a href="mailto:info@devstudio.com" class="email-link"> 
               <img src="./images/envelope_hover.svg" width="16" height="11" alt="ссылка на почту">info@devstudio.com
                </a></li>
@@ -30,24 +31,25 @@
               <img src="./images/smartphone.svg" width="10" height="15" alt="телефон">+38 096 111 11 11
                </a></li>
         </ul>
+        </div>
     </header>
 
-    <h1 hidden>Контент страницы Portfolio</h1>
-
     <main>
+      <h1 hidden>Контент страницы Portfolio</h1>
     <section>
       <!-- buttons and all -->
+      <div class="container">
       <h2 hidden>Фильтры Portfolio</h2>
-        <button class="btn-portfolio">Все</button>
-        <button class="btn-portfolio">Веб-сайты</button>
-        <button class="btn-portfolio">Приложения</button>
-        <button class="btn-portfolio">Дизайн</button>
-        <button class="btn-portfolio">Маркетинг</button>
-    </section>
-   
-      <section>
-       <ul class="list portfolio">
-        <li>
+      <ul class="list btn-list">
+        <li class="btn-list-item"><button class="btn-portfolio">Все</button></li>
+        <li class="btn-list-item"><button class="btn-portfolio">Веб-сайты</button></li>
+        <li class="btn-list-item"><button class="btn-portfolio">Приложения</button></li>
+        <li class="btn-list-item"><button class="btn-portfolio">Дизайн</button></li>
+        <li class="btn-list-item"><button class="btn-portfolio">Маркетинг</button></li>
+      </ul>
+     
+      <ul class="list portfolio">
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/techno.jpg" width="370" height="294" alt="Технокряк"/>
           <h3 class="menu-portfolio" lang="ru">Технокряк</h3>
@@ -56,7 +58,7 @@
           </a>
         </li>
       
-        <li>
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/basket.jpg" width="370" height="294" alt="постер баскетболистов"/>
           <h3 class="menu-portfolio" lang="en">Постер New Orlean vs Golden Star</h3>
@@ -65,7 +67,7 @@
           </a>
         </li>
       
-        <li>
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/seafood.jpg" width="370" height="294" alt="ресторан seafood"/>
           <h3 class="menu-portfolio" lang="en">Ресторан Seafood</h3>
@@ -74,7 +76,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/prime.jpg" width="370" height="294" alt="проект prime"/>
           <h3 class="menu-portfolio" lang="en">Проект Prime</h3>
@@ -83,7 +85,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/boxes.jpg" width="370" height="294" alt="проект boxes"/>
           <h3 class="menu-portfolio" lang="en">Проект Boxes</h3>
@@ -92,7 +94,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/borders.jpg" width="370" height="294" alt="Borders"/>
           <h3 class="menu-portfolio" lang="en">Inspiration has no Borders</h3>
@@ -101,7 +103,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/limited_edition.jpg" width="370" height="294" alt="издание Limited Edition"/>
           <h3 class="menu-portfolio" lang="en">Издание Limited Edition</h3>
@@ -110,7 +112,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/lab.jpg" width="370" height="294" alt="Проект LAB"/>
           <h3 class="menu-portfolio" lang="en">Проект LAB</h3>
@@ -119,7 +121,7 @@
           </a>
         </li>
 
-        <li>
+        <li class="portfolio-item">
           <a class="filtre" href="">
           <img src="./images/growing_business.jpg" width="370" height="294" alt="Growing Business"/>
           <h3 class="menu-portfolio" lang="en">Growing Business</h3>
@@ -128,11 +130,12 @@
           </a>
         </li>
       </ul>
+    </div>
     </section>
    </main>
   
     <footer class="page-footer">
-         <div>
+         <div class="container">
           <a class="logo" href="WebStudio"><span class="logo-web">Web</span> Studio</a>
          <address>
             <ul class="list contacts-list">
@@ -143,7 +146,7 @@
           </address>
         </div>
 
-        <div>
+        <div class="container">
           <b class="social">Присоединяйтесь</b>
       <ul class="list social-list">
         <li class="social-item">

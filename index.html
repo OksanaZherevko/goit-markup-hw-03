@@ -11,9 +11,11 @@
   </head>
 
   <body>
+    <!-- Шапка сайта -->
     <header class="page-header">
-        <a class="logotype" href="WebStudio"><span class="logotype-web">Web</span> Studio</a>
+      <div class="container flexbox">
         <nav class="navigation">
+          <a class="logotype" href="WebStudio"><span class="logotype-web">Web</span> Studio</a>
           <ul class="list menu-list">
             <li class="menu-item"><a href="#" class="menu-link current">Студия</a></li>
             <li class="menu-item"><a href="./portfolio.html" class="menu-link">Портфолио</a></li>
@@ -21,7 +23,7 @@
           </ul>
         </nav>
        
-        <ul class="list">
+        <ul class="list menu-contacts">
             <li><a href="mailto:info@devstudio.com" class="email-link"> 
               <img src="./images/envelope_hover.svg" width="16" height="11" alt="ссылка на почту">info@devstudio.com
                </a></li>
@@ -30,71 +32,79 @@
               <img src="./images/smartphone.svg" width="10" height="15" alt="телефон">+38 096 111 11 11
                </a></li>
         </ul>
+      </div>
     </header>
 
     <main>
     <section class="hero">
     <!-- our landmarks -->
+     <div class="container">
       <div>
-        <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="page-title">Эффективные решения <br>для вашего бизнеса</br></h1>
         <button class="btn">Заказать услугу</button>
       </div>
+     </div>
     </section>
 
     <section>
+      <div class="container">
       <ul class="list section">
-        <li>
+        <li class="priorities">
           <img src="./images/antenna1.svg" width="70" height="70" alt="антена"/>
           <h3 class="title-label">Внимание к деталям</h3>
           <p class="section-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
      
-        <li>
+        <li class="priorities">
           <img src="./images/clock1.svg" width="70" height="70" alt="часы"/>
           <h3 class="title-label">Пунктуальность</h3>
           <p class="section-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
      
-        <li>
+        <li class="priorities">
           <img src="./images/diagram1.svg" width="70" height="70" alt="диаграма"/>
           <h3 class="title-label">Планирование</h3>
           <p class="section-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
      
-        <li>
+        <li class="priorities">
           <img src="./images/astronaut1.svg" width="70" height="70" alt="астронавт"/>
           <h3 class="title-label">Современные технологии</h3>
           <p class="section-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
       </ul>
+      </div>
     </section>
 
     <!-- activity -->
-    <section>
+    <section class="section">
+      <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
-      <ul class="list activity">
-        <li>
+      <ul class="list activity-list">
+        <li class="activity-item">
           <img src="./images/desktop.jpg" width="370" height="294" alt="приложение"/>
           <h3 class="activity">Десктопные приложения</h3>
         </li>
       
-        <li>
+        <li class="activity-item">
           <img src="./images/mobile.jpg" width="370" height="294" alt="телефон"/>
           <h3 class="activity">Мобильные приложения</h3>
         </li>
       
-        <li>
+        <li class="activity-item">
           <img src="./images/monitor.jpg" width="370" height="294" alt="монитор"/>
           <h3 class="activity">Дизайнерские решения</h3>
         </li>
       </ul>
+      </div>
       </section>
         
     <!-- our team -->
     <section class="teams">
+      <div class="container">
       <h2 class="section-title">Наша команда</h2>
-      <ul class="list">
-        <li>
+      <ul class="list team-list">
+        <li class="team-item member">
           <img src="./images/nikola.jpg" width="270" height="260" alt="фото Николай"/>
           <h3 class="member-name" lang="ru">Николай Кучеренко</h3>
           <p class="member-position" lang="en">Product Designer</p>
@@ -114,7 +124,7 @@
         </ul>
         </li>
       
-        <li>
+        <li class="team-item member">
           <img src="./images/olga.jpg" width="270" height="260" alt="фото Ольга"/>
           <h3 class="member-name" lang="ru">Ольга Иванова</h3>
           <p class="member-position" lang="en">Frontend Developer</p>
@@ -134,7 +144,7 @@
           </ul>
         </li>
       
-        <li>
+        <li class="team-item member">
           <img src="./images/andrew.jpg" width="270" height="260" alt="фото Андрей"/>
           <h3 class="member-name" lang="ru">Андрей Шевченко</h3>
           <p class="member-position" lang="en">Marketing</p>
@@ -154,7 +164,7 @@
           </ul>
         </li>
 
-        <li>
+        <li class="team-item member">
           <img src="./images/ivan.jpg" width="270" height="260" alt="фото Иван"/>
           <h3 class="member-name" lang="ru">Иван Николаев</h3>
           <p class="member-position" lang="en">UI Designer</p>
@@ -174,10 +184,12 @@
           </ul>
         </li>
       </ul>
+      </div>
     </section>
 
     <!-- repeated customers -->
-    <section>
+    <section class="section">
+      <div class="container">
       <h2 class="section-title">Постоянные клиенты</h2>
       <ul class="list site-nav">
         <li>
@@ -199,11 +211,12 @@
         <a href="#" class="link" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Логотип">logo6</a>
         </li>
       </ul>
+      </div>
     </section>
   </main>
   
     <footer class="page-footer">
-         <div>
+         <div class="container">
           <a class="logo" href="WebStudio"><span class="logo-web">Web</span> Studio</a>
          <address>
             <ul class="list contacts-list">
@@ -214,7 +227,7 @@
           </address>
         </div>
 
-        <div>
+        <div class="container">
           <b class="social">Присоединяйтесь</b>
       <ul class="list social-list">
         <li class="social-item">
